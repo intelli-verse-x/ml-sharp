@@ -4,6 +4,9 @@ For licensing see accompanying LICENSE file.
 Copyright (C) 2025 Apple Inc. All Rights Reserved.
 """
 
+import utils.http_session
+import utils.transport
+import utils.session
 import click
 
 from . import predict, render
